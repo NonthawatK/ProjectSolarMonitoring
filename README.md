@@ -1,4 +1,4 @@
-# ESP32 – HTU21D + DS3231 + ESP-NOW + WiFi Config Mode
+# Solar Rooftop Temperature Monitoring & Logging System With LAN Communication
 
 โปรเจกต์นี้ใช้ ESP32 ในการ:
 - อ่านอุณหภูมิจาก **HTU21D**
