@@ -1,16 +1,6 @@
-# Solar Rooftop Temperature Monitoring & Logging System With LAN Communication
+# ✨ Solar Rooftop Temperature Monitoring & Logging System With LAN Communication
 
-โปรเจกต์นี้ใช้ ESP32 ในการ:
-- อ่านอุณหภูมิจาก **HTU21D**
-- อ่านเวลาแบบ Real Time จาก **DS3231**
-- ส่งข้อมูลออกผ่าน **ESP-NOW**
-- ใช้ปุ่มเพื่อเข้า **WiFi AP Mode + Web Config**
-- ใช้ **SPIFFS** โหลดหน้าเว็บสำหรับตั้งค่า
-- บันทึกข้อมูล (เวลา + MAC) ลง **NVS**
-
-โปรเจกต์นี้เหมาะสำหรับระบบ IoT, ระบบส่งข้อมูลไร้สาย และงานที่ต้องตั้งค่าผ่านมือถือ
-
----
+โปรเจกต์นี้ใช้ ESP32 Xiao C3 
 
 ## ⭐ ฟีเจอร์หลัก
 - อ่านอุณหภูมิจาก HTU21D ผ่าน I2C  
@@ -18,9 +8,8 @@
 - ส่งข้อมูลผ่าน ESP-NOW  
 - ตั้งค่าเวลาและ MAC ผ่าน Web Config  
 - เปิด WiFi AP เมื่อกดปุ่ม  
-- โหลดหน้าเว็บจาก SPIFFS  
 - บันทึกค่าการตั้งเวลาและ MAC ลง NVS  
-- Task แยกอิสระ (Temp / Time / Button / Time Diff)
+โปรเจกต์นี้เหมาะสำหรับระบบ IoT, ระบบส่งข้อมูลไร้สาย
 
 ---
 
